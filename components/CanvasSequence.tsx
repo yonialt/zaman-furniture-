@@ -19,7 +19,7 @@ export default function CanvasSequence({ progress }: CanvasSequenceProps) {
     for (let i = 1; i <= frameCount; i++) {
       const img = new Image();
       const frameNumber = i.toString().padStart(3, "0");
-      img.src = `/sequence/ezgif-frame-${frameNumber}.jpg`;
+      img.src = `/sequence 1/ezgif-frame-${frameNumber}.png`;
       
       img.onload = () => {
         loadedCount++;
